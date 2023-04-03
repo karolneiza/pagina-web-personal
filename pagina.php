@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +22,7 @@
 </head>
 
 <body>
-
+    
     <!-- Menu de navegación -->
 
     <nav class="navbar navbar-expand-lg navbar-white bg-white">
@@ -79,21 +80,21 @@
     </section>
 
     <!-- seccion 2: formulario: imagen y texto -->
-
     <section class="container bg-white">
-        <form>
+        
+        <form method="POST" enctype="multipart/form-data">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Ingresa tu nombre</label>
-                <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                <label for="exampleInputEmail1" class="form-label" >Ingresa tu nombre</label>
+                <input type="text" class="form-control" id="nombres" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Correo de contacto</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">Tu correo se mantendrá privado</div>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Cuentame lo que necesitas</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="necesidad" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
