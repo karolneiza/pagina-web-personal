@@ -39,10 +39,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pagina.html">Contáctame</a>
+                        <a class="nav-link" href="./pagina.php">Contenido</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./clientes/formulario.php">Contáctame</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Sobre mi
                         </a>
@@ -62,54 +65,57 @@
         </div>
     </nav>
 
-    <div class="container-fluid ">
-
-        <!-- seccion 1: BLOG: imagen, articulo y boton -->
-
-        <section class="row content seccion1">
+    <section class=" py-4 text-sm-center text-md-center text-lg-center text-xl-center " >
+        <div class="container-fluid ">
 
 
-            <article class="textoblog col-sm-12 col-md-6 col-lg-3">
+          <!-- seccion 1: BLOG: imagen, articulo y boton -->
 
-                <div>
-                    <h2>¿Quieres mejorar tus habilidades blandas y destacar en el mundo laboral de la tecnología?</h2>
+           <section class="row content seccion1">
+                <article class="textoblog col-sm-12 col-md-6 col-lg-3">
 
-                    <p>Este es el lugar adecuado para ti.
-                        <br>
-                        <br>
-                        En nuestro blog encontrarás recursos, herramientas y consejos para mejorar tus habilidades
-                        blandas y procesos de recursos humanos en la industria tecnológica.
-                        <br>
-                        Además,también hablamos sobre tecnología y el mundo tech en general.
-                        <br>
-                        <br>
-                        ¡No te pierdas ningún contenido!
-                    </p>
+                    <div>
+                        <h2 class="display-6">¿Quieres mejorar tus habilidades blandas y destacar en el mundo laboral de la tecnología?</h2>
 
-                </div>
+                        <p class="py-3">Este es el lugar adecuado para ti.
+                            <br>
+                            <br>
+                            En nuestro blog encontrarás recursos, herramientas y consejos para mejorar tus habilidades
+                            blandas y procesos de recursos humanos en la industria tecnológica.
+                            <br>
+                            Además,también hablamos sobre tecnología y el mundo tech en general.
+                            <br>
+                            <br>
+                            ¡No te pierdas ningún contenido!
+                        </p>
 
-                <div class="botonblog col-sm-12 col-md-6 col-lg-3">
-                    <a href="">Visita nuestro blog</a>
-                </div>
-            </article>
+                    </div>
+
+                    <div class="botonblog col-sm-12 col-md-6 col-lg-3">
+                        <a href="">Visita nuestro blog</a>
+                    </div>
+
+                </article>
+                <figure class="img-art col-sm-12 col-md-6 col-lg-3">
+                    <img src="./imagenes/blog.png" alt="icono" width="181" class="img-fluid mx-auto py-5">
+                </figure>
+
+           </section>
+
+         <!-- seccion 2: SOBRE MI: imagen, texto y botón -->
+
+         <section class="row content seccion2">
+
             <figure class="img-art col-sm-12 col-md-6 col-lg-3">
-                <img src="./imagenes/blog.png" alt="">
-            </figure>
-        </section>
-
-        <!-- seccion 2: SOBRE MI: imagen, texto y botón -->
-
-        <section class="row content seccion2">
-
-            <figure class="img-art col-sm-12 col-md-6 col-lg-3">
-                <img src="./imagenes/karolneiza.png" alt="">
+                <img src="./imagenes/karolneiza.png" alt="icono" width="181" class="img-fluid mx-auto py-5">
             </figure>
 
             <article class="textosobremi col-sm-12 col-md-6 col-lg-3">
 
                 <div>
-                    <h2>¡Hola, soy Karol Neiza!</h2>
-                    <p><!-- Soy docente y psicóloga con más de 6 años de experiencia en el área educativa y apasionada por el
+                    <h2 class="display-6">¡Hola, soy Karol Neiza!</h2>
+                    <p class="py-3">
+                        <!-- Soy docente y psicóloga con más de 6 años de experiencia en el área educativa y apasionada por el
                    aprendizaje continuo, el desarrollo personal y los recursos humanos. Como docente y psicóloga, he
                    desarrollado habilidades en la selección, evaluación y mentoría de habilidades blandas y RRHH en el
                    mundo tech. -->
@@ -133,54 +139,59 @@
                 </div>
             </article>
 
-        </section>
+         </section>
 
 
-        <!-- seccion 3: PORTAFOLIO: imagen texto  y boton -->
-        <section class="row content seccion3">
-            <figure class="img-art col-sm-12 col-md-6 col-lg-3">
-                <img src="./imagenes/portafolio.png" alt="">
-            </figure>
+         <!-- seccion 3: PORTAFOLIO: imagen texto  y boton -->
+           <section class="row content seccion3">
+                <figure class="img-art col-sm-12 col-md-6 col-lg-3">
+                    <img src="./imagenes/portafolio.png" alt="icono" width="181" class="img-fluid mx-auto py-5">
+                </figure>
 
-            <div class="cont-art col-sm-12 col-md-6 col-lg-3">
-                <h2> Portafolio</h2>
-                <p>
-                    Si estás buscando mejorar tus habilidades blandas y procesos de recursos humanos en la industria
-                    tecnológica, no dudes en contactarme. Trabajaremos juntos para encontrar la solución adecuada para
-                    ti y tu empresa
-                <ul class="servicios"> <!-- listas desordenadas  -->
-                    <li>Consultorias</li>
-                    <li>Asesorias</li>
-                    <li>Mentorias</li>
-                    <li>Educación</li>
-                </ul>
-                <p class="parrafo-final">
-                    Adicional a eso te muestro mi portafolio de aplicativos web.
-                </p>
+                <div class="cont-art col-sm-12 col-md-6 col-lg-3">
+                    <h2 class="display-6"> Portafolio</h2>
+                    <p class="py-3">
+                        Si estás buscando mejorar tus habilidades blandas y procesos de recursos humanos en la industria
+                        tecnológica, no dudes en contactarme. Trabajaremos juntos para encontrar la solución adecuada para
+                        ti y tu empresa
 
-                </p>
-                <div class="botonportafolio">
-                    <a href=""> Conoce todos mis servicios
-                    </a>
+                    <ul class="servicios"> <!-- listas desordenadas  -->
+                        <li>Consultorias</li>
+                        <li>Asesorias</li>
+                        <li>Mentorias</li>
+                        <li>Educación</li>
+                    </ul>
+                    <p class="parrafo-final">
+                        Adicional a eso te muestro mi portafolio de aplicativos web.
+                    </p>
+
+                    </p>
+                    <div class="botonportafolio">
+                        <a href=""> Conoce todos mis servicios
+                        </a>
+                    </div>
                 </div>
-            </div>
+           </section>
 
-        </section>
+         <!-- Pie de pagina -->
 
-        <!-- Pie de pagina -->
+         <footer>
+              <address>Karol Neiza © Reservados todos los derechos</address>
 
-        <footer>
-            <address>Karol Neiza © Reservados todos los derechos</address>
+                <div>
+                    <a href="https://www.linkedin.com/in/karolneiza/">Linkedin</a>-
+                    <a href="https://www.instagram.com/karolneiza/">Instagram</a>-
+                    <a href="https://www.facebook.com/karolneizag/">Facebook</a>-
+                    <a href="http://youtube.com/@karolneiza">Youtube</a>-
+                    <a href="https://www.tiktok.com/@karolneiza">Tiktok</a>
+                </div>
+         </footer>
 
-            <div>
-                <a href="https://www.linkedin.com/in/karolneiza/">Linkedin</a>-
-                <a href="https://www.instagram.com/karolneiza/">Instagram</a>-
-                <a href="https://www.facebook.com/karolneizag/">Facebook</a>-
-                <a href="http://youtube.com/@karolneiza">Youtube</a>-
-                <a href="https://www.tiktok.com/@karolneiza">Tiktok</a>
-            </div>
-        </footer>
-    </div>
+
+
+        </div>
+
+    </section>
 
 
 </body>

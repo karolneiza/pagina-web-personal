@@ -9,10 +9,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.php">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pagina.php">Contenido</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./formulario.php">Contáctame</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.php">Clientes</a>
                     </li>
                     
             </div>

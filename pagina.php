@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./CSS/paginastyle.css">
+    <link rel="stylesheet" href="./CSS/paginastyle.css"> 
     <!-- Responsive CSS -->
     <!-- <link rel="stylesheet" href="./CSS/mq2.css"> -->
 
@@ -39,7 +39,10 @@
                         <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contáctame</a>
+                        <a class="nav-link" href="#">Contenido</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./clientes/formulario.php">Contáctame</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -60,95 +63,103 @@
                             </form>
             </div>
         </div>
+        <img src="./imagenes/baneer.png" alt="icono" width="181" class="img-fluid mx-auto py-5">
     </nav>
 
-    <img src="./imagenes/baneer.png" alt="">
+    <section class=" py-4 text-sm-center text-md-center text-lg-center text-xl-center " >
+      <div class="container-fluid ">
 
-    <!-- seccion 1: Mensaje: articulo -->
+             <!-- seccion 1: Mensaje: articulo -->
 
-    <section >
+         <section >
+             <article class="seccion1">
+                 <p class="py-3"> 
+                        Después de revisar mi experiencia y servicios en recursos humanos y habilidades blandas, ¿quieres
+                        contactar directamente conmigo?
+                        <br>
+                        <br>
+                        Estupendo, estaré encantada de saber de ti y trabajar juntos para encontrar la solución adecuada para ti
+                        y tu empresa
+                 </p>
+             </article>
 
-        <article class="seccion1">
-            <p>Después de revisar mi experiencia y servicios en recursos humanos y habilidades blandas, ¿quieres
-                contactar directamente conmigo?
-                <br>
-                <br>
-                Estupendo, estaré encantada de saber de ti y trabajar juntos para encontrar la solución adecuada para ti
-                y tu empresa
-            </p>
-        </article>
-    </section>
-
-    <!-- seccion 2: formulario: imagen y texto -->
-    <section class="container bg-white">
+             <div class="botonvideos">
+               <a href="./clientes/formulario.php">
+                 <div>Contáctame</div>
+               </a> 
+             </div>
         
-        <form method="POST" enctype="multipart/form-data">
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label" >Ingresa tu nombre</label>
-                <input type="text" class="form-control" id="nombres" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Correo de contacto</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Tu correo se mantendrá privado</div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Cuentame lo que necesitas</label>
-                <textarea class="form-control" id="necesidad" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
+        
+         </section>
 
-    </section>
-
-    <!-- seccion 3: videos en youtube: carrusel de videos, y texto -->
-    <section class="seccion3">
-
-        <article>
-            <h2 class="textoprincipal">Últimos vídeos en Youtube</h2>
-            <br>
-            <section class="texto">
+         
+            <!-- seccion 3: videos en youtube: carrusel de videos, y texto -->
+            
+<section class="seccion3">
+    <h2 class="textoprincipal">Últimos vídeos en Youtube</h2>
+    <section class="texto">         
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card text-center"> 
                 <div class="youtube">
-                    <iframe class="video" width="601" height="338"
-                        src="https://www.youtube.com/embed/MjuTWg0IYwU?list=UULFG9DyWKmkNSHNIQdkK8LFaQ"
-                        title="💜 Experiencias que cambian vidas con Edna Cárdenas" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                            <div class="card-video-top">
 
-                    <h4>😍 Estoy emocionada de traer para ti, este segmento llamado “experiencias que inspiran”.
-                    </h4>
+                                    <iframe class="video" width="601" height="338"
+                                        src="https://www.youtube.com/embed/MjuTWg0IYwU?list=UULFG9DyWKmkNSHNIQdkK8LFaQ"
+                                        title="💜 Experiencias que cambian vidas con Edna Cárdenas" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                            </div>
+                    <div class="card-body">
+                            <h4 class="card-text">😍 Estoy emocionada de traer para ti, este segmento llamado “experiencias que inspiran”.
+                            </h4>
+                        </div>
                 </div>
-
-
-                <div class="youtube">
-                    <iframe class="video" width="601" height="338"
-                        src="https://www.youtube.com/embed/WaKlCoug1uE?list=UULFG9DyWKmkNSHNIQdkK8LFaQ"
-                        title="5 pasos para estar en equilibrio con tus emociones" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <h4>😍 5 pasos para estar en equilibrio con tus emociones.</h4>
-                </div>
-            </section>
-        </article>
-        <div class="botonvideos"><a href="">
-                <div>ver más</div>
-            </a></div>
-    </section>
-
-    <!-- Pie de pagina -->
-
-    <footer>
-        <address>Karol Neiza © Reservados todos los derechos</address>
-
-        <div>
-            <a href="https://www.linkedin.com/in/karolneiza/">Linkedin</a>-
-            <a href="https://www.instagram.com/karolneiza/">Instagram</a>-
-            <a href="https://www.facebook.com/karolneizag/">Facebook</a>-
-            <a href="http://youtube.com/@karolneiza">Youtube</a>-
-            <a href="https://www.tiktok.com/@karolneiza">Tiktok</a>
+            </div>        
         </div>
-    </footer>
+            <div class="col-md-6">
+                <div class="card text-center"> 
+                    <div class="youtube">
+                        <iframe class="video" width="601" height="338"
+                            src="https://www.youtube.com/embed/WaKlCoug1uE?list=UULFG9DyWKmkNSHNIQdkK8LFaQ"
+                            title="5 pasos para estar en equilibrio con tus emociones" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                      <div class="card-body">
+                          <h4 class= "card-title">😍 5 pasos para estar en equilibrio con tus emociones.</h4>
+                      </div>
+                    </div>
+               </div>
+           </div>
+                </section>
+            
+            <div class="botonvideos"><a href="">
+            Ver más
+            </a></div>
+        
 
+    </div>     
+</div>         
+
+    
+    </section>
+
+             <!-- Pie de pagina -->
+       
+              <footer>
+                    <address>Karol Neiza © Reservados todos los derechos</address>
+
+                    <div>
+                        <a href="https://www.linkedin.com/in/karolneiza/">Linkedin</a>-
+                        <a href="https://www.instagram.com/karolneiza/">Instagram</a>-
+                        <a href="https://www.facebook.com/karolneizag/">Facebook</a>-
+                        <a href="http://youtube.com/@karolneiza">Youtube</a>-
+                        <a href="https://www.tiktok.com/@karolneiza">Tiktok</a>
+                    </div>
+              </footer>
+       </div>     
+   </section>
 
 </body>
 
